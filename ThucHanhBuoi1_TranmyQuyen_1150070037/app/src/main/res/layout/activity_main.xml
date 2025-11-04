@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF7FA"
+    tools:context=".MainActivity">
+
+    <!--  Tiêu đề -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trần Mỹ Quyên - 1150070037"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!--  Cuộn nội dung -->
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- 🔹 Lab 1 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lab 1"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#FFB74D "
+                android:layout_marginBottom="16dp" />
+
+            <!-- Hàng Lab 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:layout_marginBottom="24dp">
+
+                <Button
+                    android:id="@+id/btnLab1"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
+                    android:text="Bài 1"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:backgroundTint="#FFB74D "
+                    app:cornerRadius="16dp" />
+
+                <Button
+                    android:id="@+id/btnLab2"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:layout_marginHorizontal="4dp"
+                    android:text="Bài 2"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:backgroundTint="#FFB74D "
+                    app:cornerRadius="16dp" />
+
+                <Button
+                    android:id="@+id/btnLab3"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:layout_marginStart="8dp"
+                    android:text="Bài 3"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:backgroundTint="#FFB74D "
+                    app:cornerRadius="16dp" />
+            </LinearLayout>
+
+            <!-- 🔹 Lab 2 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lab 2"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#E91E63"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Hàng 1: Bài 1-3 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:layout_marginBottom="8dp">
+
+                <Button
+                    android:id="@+id/btnLab4"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
+                    android:text="Bài 1"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:backgroundTint="#E91E63"
+                    app:cornerRadius="16dp" />
+
+                <Button
+                    android:id="@+id/btnLab5"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:layout_marginHorizontal="4dp"
+                    android:text="Bài 2, 3"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:backgroundTint="#E91E63"
+                    app:cornerRadius="16dp" />
+
+                <Button
+                    android:id="@+id/btnLab6"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:layout_marginStart="8dp"
+                    android:text="Bài 5"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:backgroundTint="#E91E63"
+                    app:cornerRadius="16dp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

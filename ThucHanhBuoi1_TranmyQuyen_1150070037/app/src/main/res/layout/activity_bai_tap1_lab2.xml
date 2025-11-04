@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:id="@+id/mainLayout"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Lab2.BaiTap1Lab2Activity">
+    <ImageView
+        android:id="@+id/imgIcon"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:src="@drawable/img_canh_cut"
+        tools:ignore="ContentDescription" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/app_name"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+</LinearLayout>
