@@ -12,6 +12,7 @@ import com.example.myapplication.Lab1.BaiTap2Lab1Activity;
 import com.example.myapplication.Lab1.BaiTap3Lab1Activity;
 import com.example.myapplication.Lab2.BaiTap1Lab2Activity;
 import com.example.myapplication.Lab2.BaiTap2Lab2Activity;
+import com.example.myapplication.Lab3.TruyenCuoiActivity;
 
 public class MainActivity extends AppCompatActivity {
     @Override
@@ -24,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         View btnLab3 = findViewById(R.id.btnLab3);
         View btnLab4 = findViewById(R.id.btnLab4);
         View btnLab5 = findViewById(R.id.btnLab5);
+        View btnLab7 = findViewById(R.id.btnLab7);
 
         btnLab1.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, BaiTap1Lab1Activity.class);
@@ -43,6 +45,10 @@ public class MainActivity extends AppCompatActivity {
         });
         btnLab5.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, BaiTap2Lab2Activity.class);
+            startActivity(intent);
+        });
+        btnLab7.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, TruyenCuoiActivity.class);
             startActivity(intent);
         });
 

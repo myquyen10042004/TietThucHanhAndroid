@@ -9,7 +9,7 @@
     android:background="#FFFFFF"
     tools:context="Lab1.BaiTap2Lab1Activity">
 
-    <!-- Hiển thị số ngẫu nhiên -->
+
     <TextView
         android:id="@+id/tvNumber"
         android:layout_width="wrap_content"

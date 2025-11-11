@@ -12,7 +12,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
-            android:name=".Lab2.BaiTap5Lab2Activity"
+            android:name=".Lab3.M003ScreenDocTruyen"
+            android:exported="false" />
+        <activity
+            android:name=".Lab3.M002ScreenDanhSachTruyen"
+            android:exported="false" />
+        <activity
+            android:name=".Lab3.M000SplashFrg"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Lab3.TruyenCuoiActivity"
             android:exported="false" />
         <activity
             android:name=".Lab2.BaiTap2Lab2Activity"

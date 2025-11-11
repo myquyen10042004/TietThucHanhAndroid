@@ -12,7 +12,7 @@
     android:layout_height="wrap_content"
     android:text="Trần Mỹ Quyên - 1150070037"
     android:layout_marginTop="30dp"/>
-    <!-- Ô nhập số thứ nhất -->
+
 
     <EditText
         android:id="@+id/edtSo1"
@@ -23,7 +23,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginBottom="8dp" />
 
-    <!-- Ô nhập số thứ hai -->
+
     <EditText
         android:id="@+id/edtSo2"
         android:layout_width="match_parent"
@@ -32,7 +32,7 @@
         android:inputType="numberDecimal"
         android:layout_marginBottom="8dp" />
 
-    <!-- Nút xem kết quả -->
+
     <TextView
         android:id="@+id/tvKetQua"
         android:layout_width="match_parent"
@@ -45,7 +45,7 @@
         android:background="#F0F0F0"
         android:layout_marginBottom="12dp" />
 
-    <!-- Hàng chứa các nút phép toán -->
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
