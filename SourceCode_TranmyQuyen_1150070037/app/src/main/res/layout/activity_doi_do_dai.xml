@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@color/teal_700"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp">
+
+            <ImageView
+                android:id="@+id/imgBack"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_back"
+                app:tint="@color/white"/>
+
+            <TextView
+                android:id="@+id/tvHeader"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/app_name_lab6_2"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="6dp">
+
+            <EditText
+                android:id="@+id/txtNumber"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/textbox_hint_2"
+                android:inputType="numberDecimal"/>
+
+            <Spinner
+                android:id="@+id/spnUnit"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/teal_700"
+            android:text="Tương đương với"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:padding="6dp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="0,1">
+
+            <!-- hải lý-->
+            <TableRow android:padding="3dp">
+                <TextView
+                    android:id="@+id/lblHaiLy"
+                    android:layout_width="wrap_content"
+                    android:padding="6dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/nm_name"
+                    android:padding="6dp"/>
+            </TableRow>
+
+            <!-- Dặm-->
+            <TableRow android:padding="3dp">
+                <TextView
+                    android:id="@+id/lblDam"
+                    android:padding="6dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/mile_name"
+                    android:padding="6dp"/>
+            </TableRow>
+
+            <!-- Kilomet -->
+            <TableRow android:padding="3dp">
+                <TextView
+                    android:id="@+id/lblKilomet"
+                    android:padding="6dp"/>
+                <TextView
+                    android:text="@string/km_name"
+                    android:padding="6dp"/>
+            </TableRow>
+
+            <!-- Lý -->
+            <TableRow android:padding="3dp">
+                <TextView
+                    android:id="@+id/lblLy"
+                    android:padding="6dp"/>
+                <TextView
+                    android:text="@string/ly_name"
+                    android:padding="6dp"/>
+            </TableRow>
+
+            <!-- met -->
+            <TableRow android:padding="3dp">
+                <TextView
+                    android:id="@+id/lblMet"
+                    android:padding="6dp"/>
+                <TextView
+                    android:text="@string/m_name"
+                    android:padding="6dp"/>
+            </TableRow>
+
+            <!-- yard -->
+            <TableRow android:padding="3dp">
+                <TextView
+                    android:id="@+id/lblYard"
+                    android:padding="6dp"/>
+                <TextView
+                    android:text="@string/yard_name"
+                    android:padding="6dp"/>
+            </TableRow>
+
+            <!-- Foot -->
+            <TableRow android:padding="3dp">
+                <TextView
+                    android:id="@+id/lblFoot"
+                    android:padding="6dp"/>
+                <TextView
+                    android:text="@string/ft_name"
+                    android:padding="6dp"/>
+            </TableRow>
+
+            <!-- Inch -->
+            <TableRow android:padding="3dp">
+                <TextView
+                    android:id="@+id/lblInch"
+                    android:padding="6dp"/>
+                <TextView
+                    android:text="@string/inch_name"
+                    android:padding="6dp"/>
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+</ScrollView>

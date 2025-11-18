@@ -1,10 +1,54 @@
 <resources>
-<!-- Buổi 1-->
+    <!-- Buổi 1-->
     <string name="app_name">Animal Sound</string>
     <string name="loading">Loading</string>
     <!-- Buổi 2-->
     <string name="app_name_lap3">TruyenCuoi</string>
     <string name="txt_congai">Con gái</string>
     <string name="txt_story">Vừa đúng vừa sai</string>
+
+    <!--Buổi 3 -->
+    <string name="author">Điền họ và tên của bạn</string>
+    <string name="computer">Điền tên máy đang dùng</string>
+    <string name="textbox_hint">Nhập số tiền</string>
+    <string name="app_name_lab6">Chương trình đổi tiền</string>
+
+    <!-- Tên tiền tệ -->
+    <string name="usd_name">American Dollar</string>
+    <string name="eur_name">European Cash</string>
+    <string name="gbp_name">Grete Britain</string>
+    <string name="aud_name">Australia Dollar</string>
+    <string name="cad_name">Canadian Dollar</string>
+    <string name="zar_name">South Africa Rand</string>
+    <string name="nzd_name">New Zealand Dollar</string>
+    <string name="vnd_name">Việt Nam Đồng</string>
+    <string name="inr_name">Indian Rupe</string>
+    <string name="jpy_name">Yên Nhật</string>
+
+    <!-- Đơn vị mã tiền tệ -->
+    <string name="usd_unit">USD</string>
+    <string name="eur_unit">EUR</string>
+    <string name="gbp_unit">GBP</string>
+    <string name="aud_unit">AUD</string>
+    <string name="cad_unit">CAD</string>
+    <string name="zar_unit">ZAR</string>
+    <string name="nzd_unit">NZD</string>
+    <string name="vnd_unit">VND</string>
+    <string name="inr_unit">INR</string>
+    <string name="jpy_unit">JPY</string>
+
+    <string name="textbox_hint_2">Nhập độ dài</string>
+    <string name="app_name_lab6_2">Chương trình đổi độ dài</string>
+    <!--tên độ dài  -->
+    <string name="nm_name">Hải lý</string>
+    <string name="mile_name">Dặm</string>
+    <string name="km_name">Kilomet</string>
+    <string name="ly_name">Lý</string>
+    <string name="m_name">Met</string>
+    <string name="yard_name">Yard</string>
+    <string name="ft_name">Foot</string>
+    <string name="inch_name">Inch</string>
+
+
 
 </resources>

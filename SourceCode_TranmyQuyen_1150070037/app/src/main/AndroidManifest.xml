@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".Lab6.DoiDoDaiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Lab6.DoiTienTeActivity"
+            android:exported="false" />
+        <activity
             android:name=".Lab3.M003ScreenDocTruyen"
             android:exported="false" />
         <activity

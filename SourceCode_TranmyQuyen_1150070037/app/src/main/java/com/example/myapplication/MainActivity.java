@@ -13,6 +13,8 @@ import com.example.myapplication.Lab1.BaiTap3Lab1Activity;
 import com.example.myapplication.Lab2.BaiTap1Lab2Activity;
 import com.example.myapplication.Lab2.BaiTap2Lab2Activity;
 import com.example.myapplication.Lab3.TruyenCuoiActivity;
+import com.example.myapplication.Lab6.DoiDoDaiActivity;
+import com.example.myapplication.Lab6.DoiTienTeActivity;
 
 public class MainActivity extends AppCompatActivity {
     @Override
@@ -26,7 +28,8 @@ public class MainActivity extends AppCompatActivity {
         View btnLab4 = findViewById(R.id.btnLab4);
         View btnLab5 = findViewById(R.id.btnLab5);
         View btnLab7 = findViewById(R.id.btnLab7);
-
+        View btnLab9 = findViewById(R.id.btnLab9);
+        View btnLab10 = findViewById(R.id.btnLab10);
         btnLab1.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, BaiTap1Lab1Activity.class);
             startActivity(intent);
@@ -51,7 +54,14 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, TruyenCuoiActivity.class);
             startActivity(intent);
         });
+        btnLab9.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, DoiTienTeActivity.class);
+            startActivity(intent);
+        });
 
-
+        btnLab10.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, DoiDoDaiActivity.class);
+            startActivity(intent);
+        });
     }
 }
