@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.myapplication.Lab1.BaiTap1Lab1Activity;
 import com.example.myapplication.Lab1.BaiTap2Lab1Activity;
 import com.example.myapplication.Lab1.BaiTap3Lab1Activity;
+import com.example.myapplication.Lab10_11.M001MenuActivity;
 import com.example.myapplication.Lab2.BaiTap1Lab2Activity;
 import com.example.myapplication.Lab2.BaiTap2Lab2Activity;
 import com.example.myapplication.Lab3.TruyenCuoiActivity;
@@ -30,6 +31,8 @@ public class MainActivity extends AppCompatActivity {
         View btnLab7 = findViewById(R.id.btnLab7);
         View btnLab9 = findViewById(R.id.btnLab9);
         View btnLab10 = findViewById(R.id.btnLab10);
+        View btnLab11 = findViewById(R.id.btnLab11);
+        View btnLab12 = findViewById(R.id.btnLab12);
         btnLab1.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, BaiTap1Lab1Activity.class);
             startActivity(intent);
@@ -61,6 +64,14 @@ public class MainActivity extends AppCompatActivity {
 
         btnLab10.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, DoiDoDaiActivity.class);
+            startActivity(intent);
+        });
+        btnLab11.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, TruyenCuoiActivity.class);
+            startActivity(intent);
+        });
+        btnLab12.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, M001MenuActivity.class);
             startActivity(intent);
         });
     }

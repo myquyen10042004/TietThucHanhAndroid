@@ -25,14 +25,14 @@ public class M001ScreenChuDe extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater,
                              @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
+        //khai báo view
         View view = inflater.inflate(R.layout.activity_m001_screen_chu_de, container, false);
-
         ImageView imgBack = view.findViewById(R.id.imgBack);
         Switch switchRotate = view.findViewById(R.id.switchRotate);
-
         RecyclerView rvTopics = view.findViewById(R.id.rvTopics);
-        rvTopics.setLayoutManager(new LinearLayoutManager(getContext()));
 
+        //xử lý sự kiện
+        rvTopics.setLayoutManager(new LinearLayoutManager(getContext()));
         imgBack.setOnClickListener(v -> {
             Intent intent = new Intent(getActivity(), MainActivity.class);
             startActivity(intent);
@@ -50,17 +50,13 @@ public class M001ScreenChuDe extends Fragment {
         });
 
 
-        String[] topicNames = {"Chú chó vui nhộn", "Cách cách", "Mèo râu ria"};
-        int[] topicImages = {R.drawable.chuchovuinhon, R.drawable.cachcach, R.drawable.meorauria};
-
-
+        String[] topicNames = {"Chú vịt vàng - thánh gây họa của ao làng"};
+        int[] topicImages = {R.drawable.chu_vit_vang };
         ChuDeAdapter adapter = new ChuDeAdapter(topicNames, topicImages, position -> {
             String selectedTopic = topicNames[position];
 
-
             ((TruyenCuoiActivity) getActivity()).gotoM002Screen(selectedTopic);
         });
-
         rvTopics.setAdapter(adapter);
         return view;
     }

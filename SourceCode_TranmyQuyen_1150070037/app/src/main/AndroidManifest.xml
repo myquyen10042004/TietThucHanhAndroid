@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".Lab10_11.M002DetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Lab10_11.M001MenuActivity"
+            android:exported="false" />
+        <activity
             android:name=".Lab6.DoiDoDaiActivity"
             android:exported="false" />
         <activity

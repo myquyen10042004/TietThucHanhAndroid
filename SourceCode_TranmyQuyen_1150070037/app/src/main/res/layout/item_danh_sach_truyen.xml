@@ -14,9 +14,9 @@
         android:layout_width="24dp"
         android:layout_height="24dp"
         android:layout_marginEnd="16dp"
-        android:src="@drawable/ic_smile"
+        android:src="@drawable/ic_tuyet"
         android:contentDescription="@string/app_name"
-        app:tint="@color/greenMid" />
+        app:tint="@color/xanh_nuoc_mat" />
 
 
     <TextView

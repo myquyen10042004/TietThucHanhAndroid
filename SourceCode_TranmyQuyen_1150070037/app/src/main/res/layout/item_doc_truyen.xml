@@ -2,6 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/nen_kem_nhat"
     android:padding="16dp">
 
     <LinearLayout
@@ -16,7 +17,7 @@
             android:text="Việc học"
             android:textSize="22sp"
             android:textStyle="bold"
-            android:textColor="@color/greenMid"
+            android:textColor="@color/vang_vit"
             android:gravity="center"
             android:layout_marginBottom="16dp" />
 

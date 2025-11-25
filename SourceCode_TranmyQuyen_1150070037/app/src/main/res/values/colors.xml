@@ -10,4 +10,17 @@
     <color name="greenMid">#478942</color>
     <color name="greenLight">#62BC5B</color>
     <color name="greenSuperLight">#EFFFEE</color>
+
+<!--    Màu chủ đề cho câu truyện chú vịt vàng-->
+    <color name="nen_kem_nhat">#FFF8E1</color>
+    <color name="nen_trang_diu">#FAFAFA</color>
+    <color name="nen_xanh_nhe">#E1F5FE</color>
+    <color name="nen_nau_nhat">#D7CCC8</color>
+    <color name="vang_vit">#FFD93D</color>
+    <color name="vang_cam">#F4A100</color>
+    <color name="xanh_ao_lang">#4FC3F7</color>
+    <color name="xanh_nuoc_mat">#29B6F6</color>
+    <color name="cam_hong">#FFAB91</color>
+    <color name="do_canh_bao">#E57373</color>
+
 </resources>

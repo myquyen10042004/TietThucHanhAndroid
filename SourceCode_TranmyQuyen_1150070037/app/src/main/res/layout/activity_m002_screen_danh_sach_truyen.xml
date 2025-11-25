@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/greenSuperLight"
+    android:background="@color/nen_kem_nhat"
     tools:context=".Lab3.M002ScreenDanhSachTruyen">
 
     <LinearLayout
@@ -14,7 +14,7 @@
         android:orientation="horizontal"
         android:gravity="center_vertical"
         android:layout_marginTop="20dp"
-        android:background="@color/greenMid"
+        android:background="@color/vang_vit"
         android:elevation="4dp">
 
 
