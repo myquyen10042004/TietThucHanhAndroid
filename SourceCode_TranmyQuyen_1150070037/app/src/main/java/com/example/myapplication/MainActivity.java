@@ -11,6 +11,7 @@ import com.example.myapplication.Lab1.BaiTap1Lab1Activity;
 import com.example.myapplication.Lab1.BaiTap2Lab1Activity;
 import com.example.myapplication.Lab1.BaiTap3Lab1Activity;
 import com.example.myapplication.Lab10_11.M001MenuActivity;
+import com.example.myapplication.Lab13_14.m000_frg_login.MainActivityBuoi5;
 import com.example.myapplication.Lab2.BaiTap1Lab2Activity;
 import com.example.myapplication.Lab2.BaiTap2Lab2Activity;
 import com.example.myapplication.Lab3.TruyenCuoiActivity;
@@ -33,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         View btnLab10 = findViewById(R.id.btnLab10);
         View btnLab11 = findViewById(R.id.btnLab11);
         View btnLab12 = findViewById(R.id.btnLab12);
+        View btnLab13_14 = findViewById(R.id.btnLab13_14);
         btnLab1.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, BaiTap1Lab1Activity.class);
             startActivity(intent);
@@ -72,6 +74,10 @@ public class MainActivity extends AppCompatActivity {
         });
         btnLab12.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, M001MenuActivity.class);
+            startActivity(intent);
+        });
+        btnLab13_14.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, MainActivityBuoi5.class);
             startActivity(intent);
         });
     }

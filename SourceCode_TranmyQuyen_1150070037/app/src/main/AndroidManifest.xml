@@ -11,6 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
+
+        <activity
+            android:name=".Lab13_14.m000_frg_login.MainActivityBuoi5"
+            android:exported="false" />
         <activity
             android:name=".Lab10_11.M002DetailActivity"
             android:exported="false" />
@@ -25,10 +29,12 @@
             android:exported="false" />
         <activity
             android:name=".Lab3.M003ScreenDocTruyen"
-            android:exported="false" />
+            android:exported="false"
+            tools:ignore="Instantiatable" />
         <activity
             android:name=".Lab3.M002ScreenDanhSachTruyen"
-            android:exported="false" />
+            android:exported="false"
+            tools:ignore="Instantiatable" />
         <activity
             android:name=".Lab3.M000SplashFrg"
             android:exported="false"

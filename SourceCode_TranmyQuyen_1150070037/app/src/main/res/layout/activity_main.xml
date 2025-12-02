@@ -317,6 +317,46 @@
                     android:backgroundTint="#61A6F7"
                     app:cornerRadius="16dp" />
             </LinearLayout>
+
+<!--            Buổi 5-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Buổi 5"
+                android:gravity="center"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lab 13 - 14"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#61A6F7"
+                android:layout_marginBottom="16dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:layout_marginBottom="8dp">
+
+                <Button
+                    android:id="@+id/btnLab13_14"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
+                    android:text="Bài 1"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:backgroundTint="#61A6F7"
+                    app:cornerRadius="16dp" />
+            </LinearLayout>
         </LinearLayout>
     </ScrollView>
 
